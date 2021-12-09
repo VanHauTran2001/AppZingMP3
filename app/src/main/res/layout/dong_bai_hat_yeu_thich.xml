@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="fitXY"
+        android:id="@+id/imgBaiHatYeuThich"
+        android:layout_margin="3dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="7dp"
+        android:id="@+id/txtTenBaiHat"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="Ten bai hat"
+        android:textColor="@color/black"
+        android:layout_toRightOf="@id/imgBaiHatYeuThich"
+        android:textSize="23dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTemCaSiBaiHat"
+        android:layout_marginTop="7dp"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@id/imgBaiHatYeuThich"
+        android:layout_below="@id/txtTenBaiHat"
+        android:maxLines="1"
+        android:textSize="18dp"
+        android:textColor="#4A4848"
+        android:text="Tran Van Hau"/>
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/imgYeuThich"
+        android:layout_marginRight="10dp"
+        android:src="@drawable/iconlove"/>
+
+</RelativeLayout>

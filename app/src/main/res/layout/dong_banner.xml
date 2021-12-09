@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:id="@+id/imgBackgroupBanner"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/imgBackgroupBanner"
+        android:id="@+id/relative">
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:padding="2dp"
+            android:id="@+id/imgBanner"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_alignTop="@id/imgBanner"
+            android:layout_toRightOf="@id/imgBanner"
+            android:id="@+id/txtTiltleBanner"
+            android:textSize="18dp"
+            android:text="Ánh nắng của anh"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtTiltleBanner"
+            android:layout_toRightOf="@id/imgBanner"
+            android:layout_marginTop="7dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14dp"
+                android:layout_marginRight="40dp"
+                android:maxLines="2"
+                android:textColor="@color/white"
+                android:id="@+id/txtNoiDung"
+                android:text="Chào bạn đến với ca khúc mới nhất trên BXH Zingmp3"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtIndexPlaynhac"
+                android:layout_margin="10dp"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:text="1"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTenbaihatPlaynhac"
+                android:layout_toRightOf="@id/txtIndexPlaynhac"
+                android:ellipsize="end"
+                android:maxWidth="250dp"
+                android:maxLines="1"
+                android:text="Anh nang cua anh"
+                android:textColor="@color/white"
+                android:textSize="19dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTencasiPlaynhac"
+                android:layout_toRightOf="@id/txtIndexPlaynhac"
+                android:layout_below="@id/txtTenbaihatPlaynhac"
+                android:ellipsize="end"
+                android:maxLines="1"
+                android:text="Tran Van Hau"
+                android:textSize="15dp"
+                android:textColor="@color/white"/>
+        </RelativeLayout>
+    </RelativeLayout>
+</layout>

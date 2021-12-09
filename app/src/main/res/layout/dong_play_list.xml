@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:background="@drawable/custom_conner"
+        android:layout_width="match_parent"
+        android:layout_height="135dp"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/imgbackgroupPlaylist"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:elevation="6dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="15dp"
+        android:id="@+id/imgPlaylist"
+        android:layout_alignBottom="@id/imgbackgroupPlaylist"
+        android:scaleType="fitXY"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:layout_toRightOf="@id/imgPlaylist"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_alignBottom="@id/imgPlaylist"
+        android:textSize="15sp"
+        android:layout_marginRight="50dp"
+        android:layout_marginBottom="5dp"
+        android:maxLines="1"
+        android:id="@+id/txtPlaylist"
+        android:layout_marginLeft="13dp"/>
+
+</RelativeLayout>

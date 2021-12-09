@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:fillViewport="true">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/linerLayout">
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragmentBanner"
+                android:name="Fragment.FragmentBanner"/>
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragmentPlaylist"
+                android:name="Fragment.FragmentPlayList"/>
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragmentChudeTheloai"
+                android:name="Fragment.FragmentChuDe_TheLoai"/>
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/fragmentAlbum"
+                android:name="Fragment.FragmentAlbumHot"/>
+            <fragment
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:name="Fragment.FragmentBaiHat"
+                android:id="@+id/fragmentBaiHatYeuThich"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</layout>

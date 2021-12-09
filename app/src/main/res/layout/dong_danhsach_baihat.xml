@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:elevation="5dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtVitriBaiHat"
+            android:text="1"
+            android:layout_margin="15dp"
+            android:textSize="20sp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="250dp"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:layout_toRightOf="@id/txtVitriBaiHat"
+            android:textColor="@color/black"
+            android:text="Thuong em la dieu anh khong the ngo"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:id="@+id/txtTenBaiHatDS"
+            android:layout_marginLeft="5dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtTenCaSiDS"
+            android:layout_below="@id/txtTenBaiHatDS"
+            android:layout_toRightOf="@id/txtVitriBaiHat"
+            android:ellipsize="end"
+            android:maxLines="1"
+            android:textColor="#6A6666"
+            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:text="Son Tung"/>
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:id="@+id/imgLuotThichBaiHat"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/iconlove"/>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

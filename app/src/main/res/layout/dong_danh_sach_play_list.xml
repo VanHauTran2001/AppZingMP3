@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="5dp"
+    android:layout_height="wrap_content">
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/fragmeLayout">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="180dp"
+            android:id="@+id/imgdanhsachplaylist"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/ic_launcher"/>
+    </FrameLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtTendanhsachplaylist"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:maxWidth="200dp"
+        android:gravity="left"
+        android:text="Tong hop nhac V-POP Remix"
+        android:textSize="17dp"
+        android:textColor="@color/black"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="K-ICM"
+        android:gravity="left"
+        android:textSize="15dp"/>
+</LinearLayout>
